@@ -1,0 +1,42 @@
+.card {
+    display: center;
+    flex-direction: column; /* Изменение направления оси на вертикальную */
+    align-items: center;
+}
+
+.card-img {
+    width: 100%; /* Изменение ширины изображения на 100% */
+    height: auto; /* Автоматическая высота */
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center; /* Выравнивание текста по центру */
+}
+  .mb-4 {
+    text-align: center;
+}
+
+.img-fluid rounded card-img{
+   text-align: center; 
+}
+
+
+
+
+#notification-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    max-width: 300px;
+    z-index: 1000;
+}
+
+.notification {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
